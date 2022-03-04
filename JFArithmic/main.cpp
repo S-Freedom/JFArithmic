@@ -63,6 +63,7 @@ int main(int argc, const char * argv[]) {
         cout << head->val << endl;
         head = head->next;
     }
+    
     return 0;
 }
 
