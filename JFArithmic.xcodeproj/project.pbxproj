@@ -14,6 +14,7 @@
 		A63BE0AC2797F9C8004A0F82 /* def_powSum_sumPow_t5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A63BE0AA2797F9C8004A0F82 /* def_powSum_sumPow_t5.cpp */; };
 		A63BE0AF27980B9A004A0F82 /* Largest_product_t8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A63BE0AD27980B9A004A0F82 /* Largest_product_t8.cpp */; };
 		A677CE59279947F700EEEA27 /* SortDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A677CE57279947F700EEEA27 /* SortDemo.cpp */; };
+		A69EA7B327D21E5A00D280D8 /* Reverse_Link_GroupK_25.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69EA7B127D21E5A00D280D8 /* Reverse_Link_GroupK_25.cpp */; };
 		A6BE6A4027D065830076B6A0 /* LinkHasCycle_141.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6BE6A3E27D065830076B6A0 /* LinkHasCycle_141.cpp */; };
 		A6BE6A4527D06D4A0076B6A0 /* LinkDetectCycle_142.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6BE6A4327D06D4A0076B6A0 /* LinkDetectCycle_142.cpp */; };
 		A6BE6A4827D0A5410076B6A0 /* HappyNum_202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6BE6A4627D0A5410076B6A0 /* HappyNum_202.cpp */; };
@@ -48,6 +49,8 @@
 		A63BE0AE27980B9A004A0F82 /* Largest_product_t8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Largest_product_t8.hpp; sourceTree = "<group>"; };
 		A677CE57279947F700EEEA27 /* SortDemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortDemo.cpp; sourceTree = "<group>"; };
 		A677CE58279947F700EEEA27 /* SortDemo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortDemo.hpp; sourceTree = "<group>"; };
+		A69EA7B127D21E5A00D280D8 /* Reverse_Link_GroupK_25.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Reverse_Link_GroupK_25.cpp; sourceTree = "<group>"; };
+		A69EA7B227D21E5A00D280D8 /* Reverse_Link_GroupK_25.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Reverse_Link_GroupK_25.hpp; sourceTree = "<group>"; };
 		A6BE6A3E27D065830076B6A0 /* LinkHasCycle_141.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkHasCycle_141.cpp; sourceTree = "<group>"; };
 		A6BE6A3F27D065830076B6A0 /* LinkHasCycle_141.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkHasCycle_141.hpp; sourceTree = "<group>"; };
 		A6BE6A4127D066290076B6A0 /* CommonDataStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDataStruct.h; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 				A6BE6A4A27D0AF2C0076B6A0 /* Reverse_LinkList_206.hpp */,
 				A6BE6A4C27D0BE990076B6A0 /* Reverse_LinkList_Between_92.cpp */,
 				A6BE6A4D27D0BE990076B6A0 /* Reverse_LinkList_Between_92.hpp */,
+				A69EA7B127D21E5A00D280D8 /* Reverse_Link_GroupK_25.cpp */,
+				A69EA7B227D21E5A00D280D8 /* Reverse_Link_GroupK_25.hpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 				A63BE0AF27980B9A004A0F82 /* Largest_product_t8.cpp in Sources */,
 				A63BE0A52797BB66004A0F82 /* fibo_sum_even_t2.cpp in Sources */,
 				A6BE6A4527D06D4A0076B6A0 /* LinkDetectCycle_142.cpp in Sources */,
+				A69EA7B327D21E5A00D280D8 /* Reverse_Link_GroupK_25.cpp in Sources */,
 				A63BE0A22796CFF1004A0F82 /* muti3Or5_t1.cpp in Sources */,
 				A63BE0AC2797F9C8004A0F82 /* def_powSum_sumPow_t5.cpp in Sources */,
 			);
