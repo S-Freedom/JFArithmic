@@ -20,6 +20,8 @@
 #include "Reverse_LinkList_206.hpp"
 #include "Reverse_LinkList_Between_92.hpp"
 #include "ReverseRight_62.hpp"
+#include "DeleteDuplicateNode_83.hpp"
+#include "DeleteDuplicateNode_82.hpp"
 
 using namespace std;
 void testEuler();
@@ -30,16 +32,20 @@ bool cmp(const int &a, const int &b){
 int main(int argc, const char * argv[]) {
     // insert code here...
     cout << "Hello, World!\n";
-    ListNode head0 = ListNode(0);
-    ListNode head1 = ListNode(1);
-    ListNode head2 = ListNode(2);
+    ListNode head0 = ListNode(1);
+    ListNode head1 = ListNode(2);
+    ListNode head2 = ListNode(3);
     ListNode head3 = ListNode(3);
     ListNode head4 = ListNode(4);
+    ListNode head5 = ListNode(4);
+    ListNode head6 = ListNode(5);
     
     head0.next = &head1;
     head1.next = &head2;
     head2.next = &head3;
     head3.next = &head4;
+    head4.next = &head5;
+    head5.next = &head6;
     
     // 判断链表是否有环
 //    LinkHasCycle_141 hasCycle_141 = LinkHasCycle_141();
@@ -61,9 +67,14 @@ int main(int argc, const char * argv[]) {
     
 //    Reverse_LinkList_Between_92 reverseList_Bt_92 = Reverse_LinkList_Between_92();
 //    ListNode *head = reverseList_Bt_92.reverseBetween(&head0, 1, 3);
-    ReverseRight_62 reverseRight_62 = ReverseRight_62();
-    ListNode *head = reverseRight_62.rotateRight(&head0, 2);
+//    ReverseRight_62 reverseRight_62 = ReverseRight_62();
+//    ListNode *head = reverseRight_62.rotateRight(&head0, 2);
     
+    
+//    DeleteDuplicateNode_83 test_83 = DeleteDuplicateNode_83();
+//    ListNode *head = test_83.deleteDuplicates(&head0);
+    DeleteDuplicateNode_82 test_82 = DeleteDuplicateNode_82();
+    ListNode *head = test_82.deleteDuplicates(&head0);
     while (head) {
         cout << head->val << endl;
         head = head->next;
