@@ -6,7 +6,8 @@
 //
 
 #include "Reverse_Link_GroupK_25.hpp"
-
+#include <utility>
+using namespace::std;
 /**
  给你一个链表，每 k 个节点一组进行翻转，请你返回翻转后的链表。
  k 是一个正整数，它的值小于或等于链表的长度。
@@ -17,19 +18,16 @@
  链接：https://leetcode-cn.com/problems/reverse-nodes-in-k-group
  */
 
-ListNode *reverseLink(ListNode *head, int k){
-    if(head==nullptr || head->next == nullptr) return head;
-    
+pair<ListNode*, ListNode*>reverseGetHeadtail(ListNode *head){
     ListNode *newHead = nullptr;
-    int count = 0;
-    while (head && count<k) {
+    ListNode *tail = head;
+    while (newHead) {
         ListNode *tempNode = head->next;
         head->next = newHead;
         newHead = head;
         head = tempNode;
-        count ++;
     }
-    return newHead;
+    return {newHead,tail};
 }
 
 ListNode* Reverse_Link_GroupK_25::reverseKGroup(ListNode *head, int k){
@@ -42,17 +40,26 @@ ListNode* Reverse_Link_GroupK_25::reverseKGroup(ListNode *head, int k){
     
     ListNode dummyNode = ListNode(-1);
     dummyNode.next = head;
-    int len = 0;
+    ListNode *preNode = &dummyNode;
     while (head) {
-        head = head->next;
-        len++;
+        ListNode *tail = preNode;
+        for(int i=0;i<k;i++){
+            tail = tail->next;
+            if(!tail){
+                return dummyNode.next;
+            }
+            ListNode *next = tail->next;
+            pair<ListNode *, ListNode *> result = reverseGetHeadtail(tail);
+            head = result.first;
+            tail = result.second;
+            
+            preNode->next = result.first;
+            tail->next = next;
+            preNode = tail;
+            head = tail->next;
+        }
     }
-    int g = len/k;
-    ListNode *preHead = nullptr;
-    for (int i=0; i<g; i++) {
-        preHead = reverseLink(head, k);
-    }
-    return nullptr;
+    return dummyNode.next;
 }
 
 

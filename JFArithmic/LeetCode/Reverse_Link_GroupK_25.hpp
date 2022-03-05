@@ -10,10 +10,11 @@
 
 #include <stdio.h>
 #include "CommonDataStruct.h"
-#endif /* Reverse_Link_GroupK_25_hpp */
-
 class Reverse_Link_GroupK_25 {
     
 public:
     ListNode* reverseKGroup(ListNode* head, int k);
 };
+#endif /* Reverse_Link_GroupK_25_hpp */
+
+

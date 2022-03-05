@@ -19,6 +19,7 @@
 #include "HappyNum_202.hpp"
 #include "Reverse_LinkList_206.hpp"
 #include "Reverse_LinkList_Between_92.hpp"
+#include "ReverseRight_62.hpp"
 
 using namespace std;
 void testEuler();
@@ -29,11 +30,12 @@ bool cmp(const int &a, const int &b){
 int main(int argc, const char * argv[]) {
     // insert code here...
     cout << "Hello, World!\n";
-    ListNode head3 = ListNode(3);
-    ListNode head2 = ListNode(2);
     ListNode head0 = ListNode(0);
-    ListNode head4 = ListNode(4);
     ListNode head1 = ListNode(1);
+    ListNode head2 = ListNode(2);
+    ListNode head3 = ListNode(3);
+    ListNode head4 = ListNode(4);
+    
     head0.next = &head1;
     head1.next = &head2;
     head2.next = &head3;
@@ -57,8 +59,11 @@ int main(int argc, const char * argv[]) {
 //    Reverse_LinkList_206 reverseLinkList_206 = Reverse_LinkList_206();
 //    ListNode *head = reverseLinkList_206.reverseList2(&head0);
     
-    Reverse_LinkList_Between_92 reverseList_Bt_92 = Reverse_LinkList_Between_92();
-    ListNode *head = reverseList_Bt_92.reverseBetween(&head0, 1, 3);
+//    Reverse_LinkList_Between_92 reverseList_Bt_92 = Reverse_LinkList_Between_92();
+//    ListNode *head = reverseList_Bt_92.reverseBetween(&head0, 1, 3);
+    ReverseRight_62 reverseRight_62 = ReverseRight_62();
+    ListNode *head = reverseRight_62.rotateRight(&head0, 2);
+    
     while (head) {
         cout << head->val << endl;
         head = head->next;
