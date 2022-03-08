@@ -27,12 +27,17 @@
 #include "Double_Circular_Queue_641.hpp"
 #include "KthMagicNumber_17_09.hpp"
 #include "BuddyString_859.hpp"
+#include "LemonCharge_860.hpp"
+#include "PanPackSort_969.hpp"
+
 using namespace std;
 void testEuler();
 
 bool cmp(const int &a, const int &b){
     return a < b;
 }
+
+void printVector(vector<int> &arr);
 int main(int argc, const char * argv[]) {
     // insert code here...
     cout << "Hello, World!\n";
@@ -132,10 +137,41 @@ int main(int argc, const char * argv[]) {
 //    KthMagicNumber_17_09 test_17_09 = KthMagicNumber_17_09();
 //    int value = test_17_09.getKthMagicNumber(10);
     
-    BuddyString_859 test_859 = BuddyString_859();
-    bool falg = test_859.buddyStrings("abbc", "abbc");
-    cout << falg << endl;
+//    BuddyString_859 test_859 = BuddyString_859();
+//    bool falg = test_859.buddyStrings("abbc", "abbc");
+//    LemonCharge_860 test_860 = LemonCharge_860();
+//    vector<int> bills;
+//    bills.push_back(5);
+//    bills.push_back(10);
+//    bills.push_back(5);
+//    bills.push_back(10);
+//    bills.push_back(5);
+//    bills.push_back(20);
+//    bills.push_back(10);
+//    bills.push_back(5);
+//    bills.push_back(10);
+//    bool flag = test_860.lemonadeChange(bills);
+//    cout << flag << endl;
+    
+    PanPackSort_969 test_969 = PanPackSort_969();
+    vector<int> arr;
+    arr.push_back(3);
+    arr.push_back(2);
+    arr.push_back(4);
+    arr.push_back(1);
+    
+    cout << "原始数据："<<endl;
+    printVector(arr);
+    vector<int> result = test_969.pancakeSort(arr);
+    cout << "反转之后数据："<<endl;
+    printVector(result);
     return 0;
+}
+
+void printVector(vector<int> &arr){
+    for(auto& r: arr){
+        cout << r << endl;
+    }
 }
 
 void testEuler(){

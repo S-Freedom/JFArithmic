@@ -23,6 +23,9 @@
 		A6B737E427D6180F006A9E9B /* Double_Circular_Queue_641.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B737E227D6180F006A9E9B /* Double_Circular_Queue_641.cpp */; };
 		A6B737E727D70116006A9E9B /* KthMagicNumber_17_09.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B737E527D70116006A9E9B /* KthMagicNumber_17_09.cpp */; };
 		A6B737EA27D733A5006A9E9B /* BuddyString_859.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B737E827D733A5006A9E9B /* BuddyString_859.cpp */; };
+		A6B737ED27D73BB4006A9E9B /* LemonCharge_860.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B737EB27D73BB4006A9E9B /* LemonCharge_860.cpp */; };
+		A6B737F027D74947006A9E9B /* PanPackSort_969.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B737EE27D74947006A9E9B /* PanPackSort_969.cpp */; };
+		A6B737F327D76010006A9E9B /* TaskCall_621.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B737F127D76010006A9E9B /* TaskCall_621.cpp */; };
 		A6BE6A4027D065830076B6A0 /* LinkHasCycle_141.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6BE6A3E27D065830076B6A0 /* LinkHasCycle_141.cpp */; };
 		A6BE6A4527D06D4A0076B6A0 /* LinkDetectCycle_142.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6BE6A4327D06D4A0076B6A0 /* LinkDetectCycle_142.cpp */; };
 		A6BE6A4827D0A5410076B6A0 /* HappyNum_202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6BE6A4627D0A5410076B6A0 /* HappyNum_202.cpp */; };
@@ -75,6 +78,12 @@
 		A6B737E627D70116006A9E9B /* KthMagicNumber_17_09.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthMagicNumber_17_09.hpp; sourceTree = "<group>"; };
 		A6B737E827D733A5006A9E9B /* BuddyString_859.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuddyString_859.cpp; sourceTree = "<group>"; };
 		A6B737E927D733A5006A9E9B /* BuddyString_859.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BuddyString_859.hpp; sourceTree = "<group>"; };
+		A6B737EB27D73BB4006A9E9B /* LemonCharge_860.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LemonCharge_860.cpp; sourceTree = "<group>"; };
+		A6B737EC27D73BB4006A9E9B /* LemonCharge_860.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LemonCharge_860.hpp; sourceTree = "<group>"; };
+		A6B737EE27D74947006A9E9B /* PanPackSort_969.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PanPackSort_969.cpp; sourceTree = "<group>"; };
+		A6B737EF27D74947006A9E9B /* PanPackSort_969.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PanPackSort_969.hpp; sourceTree = "<group>"; };
+		A6B737F127D76010006A9E9B /* TaskCall_621.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TaskCall_621.cpp; sourceTree = "<group>"; };
+		A6B737F227D76010006A9E9B /* TaskCall_621.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaskCall_621.hpp; sourceTree = "<group>"; };
 		A6BE6A3E27D065830076B6A0 /* LinkHasCycle_141.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkHasCycle_141.cpp; sourceTree = "<group>"; };
 		A6BE6A3F27D065830076B6A0 /* LinkHasCycle_141.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkHasCycle_141.hpp; sourceTree = "<group>"; };
 		A6BE6A4127D066290076B6A0 /* CommonDataStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDataStruct.h; sourceTree = "<group>"; };
@@ -191,6 +200,12 @@
 				A6B737E627D70116006A9E9B /* KthMagicNumber_17_09.hpp */,
 				A6B737E827D733A5006A9E9B /* BuddyString_859.cpp */,
 				A6B737E927D733A5006A9E9B /* BuddyString_859.hpp */,
+				A6B737EB27D73BB4006A9E9B /* LemonCharge_860.cpp */,
+				A6B737EC27D73BB4006A9E9B /* LemonCharge_860.hpp */,
+				A6B737EE27D74947006A9E9B /* PanPackSort_969.cpp */,
+				A6B737EF27D74947006A9E9B /* PanPackSort_969.hpp */,
+				A6B737F127D76010006A9E9B /* TaskCall_621.cpp */,
+				A6B737F227D76010006A9E9B /* TaskCall_621.hpp */,
 			);
 			path = Queue_Stack;
 			sourceTree = "<group>";
@@ -269,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B737F327D76010006A9E9B /* TaskCall_621.cpp in Sources */,
 				A6BE6A4E27D0BE990076B6A0 /* Reverse_LinkList_Between_92.cpp in Sources */,
 				A6B737E727D70116006A9E9B /* KthMagicNumber_17_09.cpp in Sources */,
 				A6BE6A4827D0A5410076B6A0 /* HappyNum_202.cpp in Sources */,
@@ -285,10 +301,12 @@
 				A699302A27D59D750024FB2B /* Queue.cpp in Sources */,
 				A6B737EA27D733A5006A9E9B /* BuddyString_859.cpp in Sources */,
 				A63BE0AF27980B9A004A0F82 /* Largest_product_t8.cpp in Sources */,
+				A6B737ED27D73BB4006A9E9B /* LemonCharge_860.cpp in Sources */,
 				A63BE0A52797BB66004A0F82 /* fibo_sum_even_t2.cpp in Sources */,
 				A6BE6A4527D06D4A0076B6A0 /* LinkDetectCycle_142.cpp in Sources */,
 				A69EA7B327D21E5A00D280D8 /* Reverse_Link_GroupK_25.cpp in Sources */,
 				A63BE0A22796CFF1004A0F82 /* muti3Or5_t1.cpp in Sources */,
+				A6B737F027D74947006A9E9B /* PanPackSort_969.cpp in Sources */,
 				A63BE0AC2797F9C8004A0F82 /* def_powSum_sumPow_t5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
