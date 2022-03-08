@@ -25,6 +25,7 @@
 #include "Queue.hpp"
 #include "Circular_Queue_622.hpp"
 #include "Double_Circular_Queue_641.hpp"
+#include "KthMagicNumber_17_09.hpp"
 
 using namespace std;
 void testEuler();
@@ -104,16 +105,16 @@ int main(int argc, const char * argv[]) {
 //    circularQueue.enQueue(4);  // 返回 true
 //    circularQueue.Rear();  // 返回 4
     
-    Double_Circular_Queue_641 test_641 = Double_Circular_Queue_641(3);
-    bool param_1 = test_641.insertLast(1);
-    bool param_2 = test_641.insertLast(2);
-    bool param_3 = test_641.insertFront(3);
-    bool param_4 = test_641.insertFront(4);
-    int param_5 = test_641.getRear();
-    bool param_6 = test_641.isFull();
-    bool param_7 = test_641.deleteLast();
-    bool param_8 = test_641.insertFront(4);
-    int param_9 = test_641.getFront();
+//    Double_Circular_Queue_641 test_641 = Double_Circular_Queue_641(3);
+//    bool param_1 = test_641.insertLast(1);
+//    bool param_2 = test_641.insertLast(2);
+//    bool param_3 = test_641.insertFront(3);
+//    bool param_4 = test_641.insertFront(4);
+//    int param_5 = test_641.getRear();
+//    bool param_6 = test_641.isFull();
+//    bool param_7 = test_641.deleteLast();
+//    bool param_8 = test_641.insertFront(4);
+//    int param_9 = test_641.getFront();
     
 //    circularDeque.insertLast(1);                    // 返回 true
 //    circularDeque.insertLast(2);                    // 返回 true
@@ -126,7 +127,12 @@ int main(int argc, const char * argv[]) {
 //    circularDeque.getFront();                // 返回 4
     
     
-    cout << param_1 << " ," << param_2 << ", " << param_3 << ", "  << param_4 << ", "  << param_5 << ", "  <<param_6 << ", "  <<  param_7 << ", "  << param_8 << ", " <<param_9 << endl;
+//    cout << param_1 << " ," << param_2 << ", " << param_3 << ", "  << param_4 << ", "  << param_5 << ", "  <<param_6 << ", "  <<  param_7 << ", "  << param_8 << ", " <<param_9 << endl;
+    
+    KthMagicNumber_17_09 test_17_09 = KthMagicNumber_17_09();
+    int value = test_17_09.getKthMagicNumber(10);
+    
+    
     return 0;
 }
 
