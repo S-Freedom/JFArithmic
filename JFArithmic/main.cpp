@@ -26,7 +26,7 @@
 #include "Circular_Queue_622.hpp"
 #include "Double_Circular_Queue_641.hpp"
 #include "KthMagicNumber_17_09.hpp"
-
+#include "BuddyString_859.hpp"
 using namespace std;
 void testEuler();
 
@@ -129,10 +129,12 @@ int main(int argc, const char * argv[]) {
     
 //    cout << param_1 << " ," << param_2 << ", " << param_3 << ", "  << param_4 << ", "  << param_5 << ", "  <<param_6 << ", "  <<  param_7 << ", "  << param_8 << ", " <<param_9 << endl;
     
-    KthMagicNumber_17_09 test_17_09 = KthMagicNumber_17_09();
-    int value = test_17_09.getKthMagicNumber(10);
+//    KthMagicNumber_17_09 test_17_09 = KthMagicNumber_17_09();
+//    int value = test_17_09.getKthMagicNumber(10);
     
-    
+    BuddyString_859 test_859 = BuddyString_859();
+    bool falg = test_859.buddyStrings("abbc", "abbc");
+    cout << falg << endl;
     return 0;
 }
 
