@@ -22,6 +22,9 @@
 #include "ReverseRight_62.hpp"
 #include "DeleteDuplicateNode_83.hpp"
 #include "DeleteDuplicateNode_82.hpp"
+#include "Queue.hpp"
+#include "Circular_Queue_622.hpp"
+#include "Double_Circular_Queue_641.hpp"
 
 using namespace std;
 void testEuler();
@@ -73,13 +76,57 @@ int main(int argc, const char * argv[]) {
     
 //    DeleteDuplicateNode_83 test_83 = DeleteDuplicateNode_83();
 //    ListNode *head = test_83.deleteDuplicates(&head0);
-    DeleteDuplicateNode_82 test_82 = DeleteDuplicateNode_82();
-    ListNode *head = test_82.deleteDuplicates(&head0);
-    while (head) {
-        cout << head->val << endl;
-        head = head->next;
-    }
+//    DeleteDuplicateNode_82 test_82 = DeleteDuplicateNode_82();
+//    ListNode *head = test_82.deleteDuplicates(&head0);
+//    while (head) {
+//        cout << head->val << endl;
+//        head = head->next;
+//    }
     
+//    Queue queue = Queue(5);
+//    queue.push(1);
+//    queue.push(2);
+//    queue.push(3);
+//    queue.pop();
+//    queue.push(4);
+//    queue.pop();
+//    queue.push(5);
+//    queue.output();
+    
+//    Circular_Queue_622 circularQueue = Circular_Queue_622(3); // 设置长度为 3
+//    circularQueue.enQueue(1);// 返回 true
+//    circularQueue.enQueue(2);// 返回 true
+//    circularQueue.enQueue(3);// 返回 true
+//    circularQueue.enQueue(4);// 返回 false，队列已满
+//    circularQueue.Rear(); // 返回 3
+//    circularQueue.isFull();  // 返回 true
+//    circularQueue.deQueue();  // 返回 true
+//    circularQueue.enQueue(4);  // 返回 true
+//    circularQueue.Rear();  // 返回 4
+    
+    Double_Circular_Queue_641 test_641 = Double_Circular_Queue_641(3);
+    bool param_1 = test_641.insertLast(1);
+    bool param_2 = test_641.insertLast(2);
+    bool param_3 = test_641.insertFront(3);
+    bool param_4 = test_641.insertFront(4);
+    int param_5 = test_641.getRear();
+    bool param_6 = test_641.isFull();
+    bool param_7 = test_641.deleteLast();
+    bool param_8 = test_641.insertFront(4);
+    int param_9 = test_641.getFront();
+    
+//    circularDeque.insertLast(1);                    // 返回 true
+//    circularDeque.insertLast(2);                    // 返回 true
+//    circularDeque.insertFront(3);                    // 返回 true
+//    circularDeque.insertFront(4);                    // 已经满了，返回 false
+//    circularDeque.getRear();                  // 返回 2
+//    circularDeque.isFull();                        // 返回 true
+//    circularDeque.deleteLast();                    // 返回 true
+//    circularDeque.insertFront(4);                    // 返回 true
+//    circularDeque.getFront();                // 返回 4
+    
+    
+    cout << param_1 << " ," << param_2 << ", " << param_3 << ", "  << param_4 << ", "  << param_5 << ", "  <<param_6 << ", "  <<  param_7 << ", "  << param_8 << ", " <<param_9 << endl;
     return 0;
 }
 

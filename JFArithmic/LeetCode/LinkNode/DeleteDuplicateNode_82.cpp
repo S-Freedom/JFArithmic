@@ -13,7 +13,6 @@ ListNode *DeleteDuplicateNode_82::deleteDuplicates(ListNode *head){
      遍历链表，记录当前节点值，和上一个节点的值，如果当前节点的值等于下一节点的值，标记将当前节点指向前一节点，并继续遍历，直到和当前节点不一致，
      将当前节点指向前一节点,并将当前节点的next指向head
      */
-    
     if(head == nullptr) return head;
     // 1  2  3  3  4  4  5
     ListNode dummyNode = ListNode(-1);

@@ -14,10 +14,13 @@
 		A63BE0AC2797F9C8004A0F82 /* def_powSum_sumPow_t5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A63BE0AA2797F9C8004A0F82 /* def_powSum_sumPow_t5.cpp */; };
 		A63BE0AF27980B9A004A0F82 /* Largest_product_t8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A63BE0AD27980B9A004A0F82 /* Largest_product_t8.cpp */; };
 		A677CE59279947F700EEEA27 /* SortDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A677CE57279947F700EEEA27 /* SortDemo.cpp */; };
+		A699302A27D59D750024FB2B /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A699302827D59D750024FB2B /* Queue.cpp */; };
+		A699302D27D5FCF40024FB2B /* Circular_Queue_622.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A699302B27D5FCF40024FB2B /* Circular_Queue_622.cpp */; };
 		A69EA7B327D21E5A00D280D8 /* Reverse_Link_GroupK_25.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69EA7B127D21E5A00D280D8 /* Reverse_Link_GroupK_25.cpp */; };
 		A69EA7B627D32B4400D280D8 /* ReverseRight_62.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69EA7B427D32B4400D280D8 /* ReverseRight_62.cpp */; };
 		A69EA7B927D340EC00D280D8 /* DeleteDuplicateNode_83.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69EA7B727D340EC00D280D8 /* DeleteDuplicateNode_83.cpp */; };
 		A69EA7BC27D3471300D280D8 /* DeleteDuplicateNode_82.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69EA7BA27D3471300D280D8 /* DeleteDuplicateNode_82.cpp */; };
+		A6B737E427D6180F006A9E9B /* Double_Circular_Queue_641.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B737E227D6180F006A9E9B /* Double_Circular_Queue_641.cpp */; };
 		A6BE6A4027D065830076B6A0 /* LinkHasCycle_141.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6BE6A3E27D065830076B6A0 /* LinkHasCycle_141.cpp */; };
 		A6BE6A4527D06D4A0076B6A0 /* LinkDetectCycle_142.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6BE6A4327D06D4A0076B6A0 /* LinkDetectCycle_142.cpp */; };
 		A6BE6A4827D0A5410076B6A0 /* HappyNum_202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6BE6A4627D0A5410076B6A0 /* HappyNum_202.cpp */; };
@@ -52,6 +55,10 @@
 		A63BE0AE27980B9A004A0F82 /* Largest_product_t8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Largest_product_t8.hpp; sourceTree = "<group>"; };
 		A677CE57279947F700EEEA27 /* SortDemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortDemo.cpp; sourceTree = "<group>"; };
 		A677CE58279947F700EEEA27 /* SortDemo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortDemo.hpp; sourceTree = "<group>"; };
+		A699302827D59D750024FB2B /* Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
+		A699302927D59D750024FB2B /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		A699302B27D5FCF40024FB2B /* Circular_Queue_622.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circular_Queue_622.cpp; sourceTree = "<group>"; };
+		A699302C27D5FCF40024FB2B /* Circular_Queue_622.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Circular_Queue_622.hpp; sourceTree = "<group>"; };
 		A69EA7B127D21E5A00D280D8 /* Reverse_Link_GroupK_25.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Reverse_Link_GroupK_25.cpp; sourceTree = "<group>"; };
 		A69EA7B227D21E5A00D280D8 /* Reverse_Link_GroupK_25.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Reverse_Link_GroupK_25.hpp; sourceTree = "<group>"; };
 		A69EA7B427D32B4400D280D8 /* ReverseRight_62.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseRight_62.cpp; sourceTree = "<group>"; };
@@ -60,6 +67,8 @@
 		A69EA7B827D340EC00D280D8 /* DeleteDuplicateNode_83.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeleteDuplicateNode_83.hpp; sourceTree = "<group>"; };
 		A69EA7BA27D3471300D280D8 /* DeleteDuplicateNode_82.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteDuplicateNode_82.cpp; sourceTree = "<group>"; };
 		A69EA7BB27D3471300D280D8 /* DeleteDuplicateNode_82.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeleteDuplicateNode_82.hpp; sourceTree = "<group>"; };
+		A6B737E227D6180F006A9E9B /* Double_Circular_Queue_641.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Double_Circular_Queue_641.cpp; sourceTree = "<group>"; };
+		A6B737E327D6180F006A9E9B /* Double_Circular_Queue_641.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Double_Circular_Queue_641.hpp; sourceTree = "<group>"; };
 		A6BE6A3E27D065830076B6A0 /* LinkHasCycle_141.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkHasCycle_141.cpp; sourceTree = "<group>"; };
 		A6BE6A3F27D065830076B6A0 /* LinkHasCycle_141.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkHasCycle_141.hpp; sourceTree = "<group>"; };
 		A6BE6A4127D066290076B6A0 /* CommonDataStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDataStruct.h; sourceTree = "<group>"; };
@@ -138,7 +147,7 @@
 			path = BinarySearch;
 			sourceTree = "<group>";
 		};
-		A6BE6A3D27D0656F0076B6A0 /* LeetCode */ = {
+		A699302527D59D390024FB2B /* LinkNode */ = {
 			isa = PBXGroup;
 			children = (
 				A6BE6A3E27D065830076B6A0 /* LinkHasCycle_141.cpp */,
@@ -159,6 +168,36 @@
 				A69EA7B827D340EC00D280D8 /* DeleteDuplicateNode_83.hpp */,
 				A69EA7BA27D3471300D280D8 /* DeleteDuplicateNode_82.cpp */,
 				A69EA7BB27D3471300D280D8 /* DeleteDuplicateNode_82.hpp */,
+			);
+			path = LinkNode;
+			sourceTree = "<group>";
+		};
+		A699302627D59D4F0024FB2B /* Queue_Stack */ = {
+			isa = PBXGroup;
+			children = (
+				A699302827D59D750024FB2B /* Queue.cpp */,
+				A699302927D59D750024FB2B /* Queue.hpp */,
+				A699302B27D5FCF40024FB2B /* Circular_Queue_622.cpp */,
+				A699302C27D5FCF40024FB2B /* Circular_Queue_622.hpp */,
+				A6B737E227D6180F006A9E9B /* Double_Circular_Queue_641.cpp */,
+				A6B737E327D6180F006A9E9B /* Double_Circular_Queue_641.hpp */,
+			);
+			path = Queue_Stack;
+			sourceTree = "<group>";
+		};
+		A699302727D59D5D0024FB2B /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		A6BE6A3D27D0656F0076B6A0 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				A699302727D59D5D0024FB2B /* Tree */,
+				A699302627D59D4F0024FB2B /* Queue_Stack */,
+				A699302527D59D390024FB2B /* LinkNode */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -227,9 +266,12 @@
 				A69EA7B627D32B4400D280D8 /* ReverseRight_62.cpp in Sources */,
 				A677CE59279947F700EEEA27 /* SortDemo.cpp in Sources */,
 				A6BE6A4027D065830076B6A0 /* LinkHasCycle_141.cpp in Sources */,
+				A6B737E427D6180F006A9E9B /* Double_Circular_Queue_641.cpp in Sources */,
 				A63BE0A92797F029004A0F82 /* plalindrome_max_t3.cpp in Sources */,
 				A69EA7BC27D3471300D280D8 /* DeleteDuplicateNode_82.cpp in Sources */,
+				A699302D27D5FCF40024FB2B /* Circular_Queue_622.cpp in Sources */,
 				A6BE6A4B27D0AF2C0076B6A0 /* Reverse_LinkList_206.cpp in Sources */,
+				A699302A27D59D750024FB2B /* Queue.cpp in Sources */,
 				A63BE0AF27980B9A004A0F82 /* Largest_product_t8.cpp in Sources */,
 				A63BE0A52797BB66004A0F82 /* fibo_sum_even_t2.cpp in Sources */,
 				A6BE6A4527D06D4A0076B6A0 /* LinkDetectCycle_142.cpp in Sources */,
