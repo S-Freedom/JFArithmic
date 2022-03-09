@@ -14,6 +14,10 @@
 		A63BE0AC2797F9C8004A0F82 /* def_powSum_sumPow_t5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A63BE0AA2797F9C8004A0F82 /* def_powSum_sumPow_t5.cpp */; };
 		A63BE0AF27980B9A004A0F82 /* Largest_product_t8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A63BE0AD27980B9A004A0F82 /* Largest_product_t8.cpp */; };
 		A677CE59279947F700EEEA27 /* SortDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A677CE57279947F700EEEA27 /* SortDemo.cpp */; };
+		A6961B8427D84C66001B99DA /* Fibo_509.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6961B8027D84C66001B99DA /* Fibo_509.cpp */; };
+		A6961B8527D84C66001B99DA /* FiboNth_1137.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6961B8127D84C66001B99DA /* FiboNth_1137.cpp */; };
+		A6961B8627D84C66001B99DA /* ClimeStairs_70.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6961B8227D84C66001B99DA /* ClimeStairs_70.cpp */; };
+		A6961B8727D84C66001B99DA /* MinCostClimbStairs_746.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6961B8327D84C66001B99DA /* MinCostClimbStairs_746.cpp */; };
 		A699302A27D59D750024FB2B /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A699302827D59D750024FB2B /* Queue.cpp */; };
 		A699302D27D5FCF40024FB2B /* Circular_Queue_622.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A699302B27D5FCF40024FB2B /* Circular_Queue_622.cpp */; };
 		A69EA7B327D21E5A00D280D8 /* Reverse_Link_GroupK_25.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69EA7B127D21E5A00D280D8 /* Reverse_Link_GroupK_25.cpp */; };
@@ -60,6 +64,10 @@
 		A63BE0AE27980B9A004A0F82 /* Largest_product_t8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Largest_product_t8.hpp; sourceTree = "<group>"; };
 		A677CE57279947F700EEEA27 /* SortDemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortDemo.cpp; sourceTree = "<group>"; };
 		A677CE58279947F700EEEA27 /* SortDemo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortDemo.hpp; sourceTree = "<group>"; };
+		A6961B8027D84C66001B99DA /* Fibo_509.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fibo_509.cpp; sourceTree = "<group>"; };
+		A6961B8127D84C66001B99DA /* FiboNth_1137.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FiboNth_1137.cpp; sourceTree = "<group>"; };
+		A6961B8227D84C66001B99DA /* ClimeStairs_70.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClimeStairs_70.cpp; sourceTree = "<group>"; };
+		A6961B8327D84C66001B99DA /* MinCostClimbStairs_746.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinCostClimbStairs_746.cpp; sourceTree = "<group>"; };
 		A699302827D59D750024FB2B /* Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
 		A699302927D59D750024FB2B /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		A699302B27D5FCF40024FB2B /* Circular_Queue_622.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circular_Queue_622.cpp; sourceTree = "<group>"; };
@@ -84,6 +92,10 @@
 		A6B737EF27D74947006A9E9B /* PanPackSort_969.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PanPackSort_969.hpp; sourceTree = "<group>"; };
 		A6B737F127D76010006A9E9B /* TaskCall_621.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TaskCall_621.cpp; sourceTree = "<group>"; };
 		A6B737F227D76010006A9E9B /* TaskCall_621.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaskCall_621.hpp; sourceTree = "<group>"; };
+		A6B737F527D794A6006A9E9B /* Fibo_509.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fibo_509.hpp; sourceTree = "<group>"; };
+		A6B737F827D7973C006A9E9B /* FiboNth_1137.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FiboNth_1137.hpp; sourceTree = "<group>"; };
+		A6B737FB27D842E2006A9E9B /* ClimbStairs_70.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClimbStairs_70.hpp; sourceTree = "<group>"; };
+		A6B737FF27D84676006A9E9B /* MinCostClimbStairs_746.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinCostClimbStairs_746.hpp; sourceTree = "<group>"; };
 		A6BE6A3E27D065830076B6A0 /* LinkHasCycle_141.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkHasCycle_141.cpp; sourceTree = "<group>"; };
 		A6BE6A3F27D065830076B6A0 /* LinkHasCycle_141.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkHasCycle_141.hpp; sourceTree = "<group>"; };
 		A6BE6A4127D066290076B6A0 /* CommonDataStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDataStruct.h; sourceTree = "<group>"; };
@@ -217,9 +229,25 @@
 			path = Tree;
 			sourceTree = "<group>";
 		};
+		A6B737FD27D84343006A9E9B /* DynamicPlanning */ = {
+			isa = PBXGroup;
+			children = (
+				A6B737FB27D842E2006A9E9B /* ClimbStairs_70.hpp */,
+				A6961B8227D84C66001B99DA /* ClimeStairs_70.cpp */,
+				A6B737F527D794A6006A9E9B /* Fibo_509.hpp */,
+				A6961B8027D84C66001B99DA /* Fibo_509.cpp */,
+				A6B737F827D7973C006A9E9B /* FiboNth_1137.hpp */,
+				A6961B8127D84C66001B99DA /* FiboNth_1137.cpp */,
+				A6961B8327D84C66001B99DA /* MinCostClimbStairs_746.cpp */,
+				A6B737FF27D84676006A9E9B /* MinCostClimbStairs_746.hpp */,
+			);
+			path = DynamicPlanning;
+			sourceTree = "<group>";
+		};
 		A6BE6A3D27D0656F0076B6A0 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				A6B737FD27D84343006A9E9B /* DynamicPlanning */,
 				A699302727D59D5D0024FB2B /* Tree */,
 				A699302627D59D4F0024FB2B /* Queue_Stack */,
 				A699302527D59D390024FB2B /* LinkNode */,
@@ -290,6 +318,7 @@
 				A6BE6A4827D0A5410076B6A0 /* HappyNum_202.cpp in Sources */,
 				A69EA7B927D340EC00D280D8 /* DeleteDuplicateNode_83.cpp in Sources */,
 				A63BE09A2796CFBA004A0F82 /* main.cpp in Sources */,
+				A6961B8527D84C66001B99DA /* FiboNth_1137.cpp in Sources */,
 				A69EA7B627D32B4400D280D8 /* ReverseRight_62.cpp in Sources */,
 				A677CE59279947F700EEEA27 /* SortDemo.cpp in Sources */,
 				A6BE6A4027D065830076B6A0 /* LinkHasCycle_141.cpp in Sources */,
@@ -300,10 +329,13 @@
 				A6BE6A4B27D0AF2C0076B6A0 /* Reverse_LinkList_206.cpp in Sources */,
 				A699302A27D59D750024FB2B /* Queue.cpp in Sources */,
 				A6B737EA27D733A5006A9E9B /* BuddyString_859.cpp in Sources */,
+				A6961B8727D84C66001B99DA /* MinCostClimbStairs_746.cpp in Sources */,
 				A63BE0AF27980B9A004A0F82 /* Largest_product_t8.cpp in Sources */,
 				A6B737ED27D73BB4006A9E9B /* LemonCharge_860.cpp in Sources */,
+				A6961B8627D84C66001B99DA /* ClimeStairs_70.cpp in Sources */,
 				A63BE0A52797BB66004A0F82 /* fibo_sum_even_t2.cpp in Sources */,
 				A6BE6A4527D06D4A0076B6A0 /* LinkDetectCycle_142.cpp in Sources */,
+				A6961B8427D84C66001B99DA /* Fibo_509.cpp in Sources */,
 				A69EA7B327D21E5A00D280D8 /* Reverse_Link_GroupK_25.cpp in Sources */,
 				A63BE0A22796CFF1004A0F82 /* muti3Or5_t1.cpp in Sources */,
 				A6B737F027D74947006A9E9B /* PanPackSort_969.cpp in Sources */,

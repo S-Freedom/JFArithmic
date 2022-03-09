@@ -29,6 +29,9 @@
 #include "BuddyString_859.hpp"
 #include "LemonCharge_860.hpp"
 #include "PanPackSort_969.hpp"
+#include "Fibo_509.hpp"
+#include "FiboNth_1137.hpp"
+#include "ClimbStairs_70.hpp"
 
 using namespace std;
 void testEuler();
@@ -153,18 +156,32 @@ int main(int argc, const char * argv[]) {
 //    bool flag = test_860.lemonadeChange(bills);
 //    cout << flag << endl;
     
-    PanPackSort_969 test_969 = PanPackSort_969();
-    vector<int> arr;
-    arr.push_back(3);
-    arr.push_back(2);
-    arr.push_back(4);
-    arr.push_back(1);
+//    PanPackSort_969 test_969 = PanPackSort_969();
+//    vector<int> arr;
+//    arr.push_back(3);
+//    arr.push_back(2);
+//    arr.push_back(4);
+//    arr.push_back(1);
+//
+//    cout << "原始数据："<<endl;
+//    printVector(arr);
+//    vector<int> result = test_969.pancakeSort(arr);
+//    cout << "反转之后数据："<<endl;
+//    printVector(result);
     
-    cout << "原始数据："<<endl;
-    printVector(arr);
-    vector<int> result = test_969.pancakeSort(arr);
-    cout << "反转之后数据："<<endl;
-    printVector(result);
+//    Fibo_509 test_509 = Fibo_509();
+//    for(int i =1;i<=10;i++){
+//        int r = test_509.fib(i);
+//        cout<< r << endl;
+//    }
+    
+//    FiboNth_1137 test_1137 = FiboNth_1137();
+//    int r = test_1137.tribonacci(25);
+    ClimbStairs_70 test_70 = ClimbStairs_70();
+    for(int i =0;i<10;i++){
+        int r =test_70.climbStairs(i);
+        cout << r << endl;
+    }
     return 0;
 }
 
